@@ -11,7 +11,7 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
-## BETA v0.2
+## BETA v0.20
 ### Changes (2023-02-07, 1675810140 Unix Time):
 - **[Added]** The whole modpack.
 
