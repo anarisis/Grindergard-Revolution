@@ -11,6 +11,33 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
+## RELEASE v1.1.0
+This minor update is mostly centered on stability fixes but also smooths out early game logistics through the addition of carts, rounds out lighting/decoration with Fairy Lights, and adds some UX tweaks through Auto Third Person.
+
+### Changes (2023-02-20, 1676885520 Unix Time):
+- **[Added]** AstikorCarts. These should be a good early game group-transit/bulk freight option that synergizes with the pack's existing work on improving horses. Create trains will always be the stronger alternative, but are inaccessible early game, so carts are here to make the transition a little smoother.
+- **[Added]** Fairy Lights.
+- **[Added]** Auto Third Person.
+<br></br>
+- **[Removed]** RPG Parties. Opening the party UI was causing the client to crash out.
+<br></br>
+- **[Updated]** Better Beacon Placement.
+- **[Updated]** Combat Roll.
+- **[Updated]** Curios API.
+- **[Updated]** Dot Coin Mod.
+- **[Updated]** Just Enough Items & its configs. Toggled search-by-color off to make it easier to search for specific items.
+- **[Updated]** Pick Up Notifier. Pick ups now display the total amount held by the player in addition to the amount picked up.
+- **[Updated]** Realistic Bees & its configs.
+- **[Updated]** Savage & Ravage.
+- **[Updated]** Simply Swords & its configs.
+- **[Updated]** The Bumblezone.
+- **[Updated]** Yung's API.
+- **[Updated]** The patchouli guide to include combat roll instructions.
+
+### Known issues:
+- Entering the mods/config menus can cause the game to stop rendering entities on the client. To fix, quit to desktop and re-open.
+- While on a server, JER only displays vanilla mob and dungeon drops.
+
 ## RELEASE v1.0.0
 ### Changes (2023-02-18, 1676749320 Unix Time):
 - **[Added]** Dot Coin Mod. Currency drops from piglin brutes and certain bosses, but currently have no mechanical use. Server owners are encouraged to implement a villager shop trading platinum for Simply Swords' unique weapons.
