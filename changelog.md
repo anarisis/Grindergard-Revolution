@@ -17,6 +17,7 @@ This minor update is mostly centered on stability fixes but also smooths out ear
 ### Changes (2023-02-20, 1676885520 Unix Time):
 - **[Added]** AstikorCarts. These should be a good early game group-transit/bulk freight option that synergizes with the pack's existing work on improving horses. Create trains will always be the stronger alternative, but are inaccessible early game, so carts are here to make the transition a little smoother.
 - **[Added]** Fairy Lights.
+- **[Added]** YUNG's Better Nether Fortresses
 - **[Added]** Auto Third Person.
 <br></br>
 - **[Removed]** RPG Parties. Opening the party UI was causing the client to crash out.
