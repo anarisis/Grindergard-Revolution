@@ -11,6 +11,23 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
+## RELEASE v1.2.0
+This minor update gives the Create mod more automation targets through Simple Farming, and adds a target dummy to more easily compare the various weapons and their damage output.
+
+### Changes (2023-02-21, 1677008160 Unix Time):
+- **[Added]** Simple Farming.
+- **[Added]** MmmMmmMmmMmm. This adds a craftable target dummy that gives damage feedback when harmed.
+<br></br>
+- **[Updated]** Combat Roll & its configs.
+- **[Updated]** CraftTweaker.
+- **[Updated]** Entity Culling.
+- **[Updated]** JEI.
+- **[Updated]** The patchouli guide for the official server.
+
+### Known issues:
+- Entering the mods/config menus can cause the game to stop rendering entities on the client. To fix, quit to desktop and re-open.
+- While on a server, JER only displays vanilla mob and dungeon drops.
+
 ## RELEASE v1.1.0
 This minor update is mostly centered on stability fixes but also smooths out early game logistics through the addition of carts, rounds out lighting/decoration with Fairy Lights, and adds some UX tweaks through Auto Third Person.
 
