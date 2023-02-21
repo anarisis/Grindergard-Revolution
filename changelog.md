@@ -14,7 +14,7 @@ Major and Minor updates and Patches are all declared with ascending whole number
 ## RELEASE v1.2.0
 This minor update gives the Create mod more automation targets through Simple Farming, and adds a target dummy to more easily compare the various weapons and their damage output.
 
-### Changes (2023-02-21, 1677008160 Unix Time):
+### Changes (2023-02-21, 1677011940 Unix Time):
 - **[Added]** Simple Farming.
 - **[Added]** MmmMmmMmmMmm. This adds a craftable target dummy that gives damage feedback when harmed.
 <br></br>
