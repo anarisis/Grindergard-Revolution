@@ -11,6 +11,22 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
+## RELEASE v1.3.0
+This minor update adds a handful of bugfixes.
+
+### Changes (2023-02-23, 1677191880 Unix Time):
+- **[Updated]** The Bumblezone.
+- **[Updated]** CraftTweaker.
+- **[Updated]** Moonlight Lib.
+- **[Updated]** Simple Farming. Scarecrows now correctly prevent trampling.
+- **[Updated]** Simply Swords.
+- **[Updated]** YUNG's API.
+- **[Updated]** YUNG's Better Nether Fortresses. Adds new structures to fortress bridge networks.
+
+### Known issues:
+- Entering the mods/config menus can cause the game to stop rendering entities on the client. To fix, quit to desktop and re-open.
+- While on a server, JER only displays vanilla mob and dungeon drops.
+
 ## RELEASE v1.2.0
 This minor update gives the Create mod more automation targets through Simple Farming, and adds a target dummy to more easily compare the various weapons and their damage output.
 
