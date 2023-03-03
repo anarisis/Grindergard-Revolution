@@ -11,6 +11,45 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
+## RELEASE v1.4.0
+This minor update fixes a few bugs and adds compatibility and missing server functionality.
+
+### Changes (2023-03-03, 1677828720 Unix Time):
+- **[Added]** An additional recipe for backpack upgrade bases using bonded leather.
+- **[Added]** Barterer, Trader, Auto Trader, Breeder, Converter, and Incubator blocks for Easy Villagers.
+- **[Added]** Compatibility for Quark's Sturdy Stone with Compressium to fix a backpack bug.
+- **[Added]** Compatibility recipes for foods that use fried eggs.
+- **[Added]** Compatibility recipes for foods that use rice.
+- **[Added]** Curious Lanterns. Lanterns and quivers can now be equipped in a curios hip slot. You will have to delete your world's curios-server.toml for these changes to fully apply properly.
+<br></br>
+- **[Changed]** Alex's Mobs configs to reduce the rate of Crimson Mosquitos.
+- **[Changed]** Sophisticated backpacks now use sheets instead of ravager hide to account for the increased difficulty of raids.
+<br></br>
+- **[Removed]** Pluto. This is an experimental change attempting to address some connectivity issues and may be reverted in a later patch.
+<br></br>
+- **[Updated]** Balm.
+- **[Updated]** Better Combat.
+- **[Updated]** The Bumblezone.
+- **[Updated]** Complementary Reimagined shaders. Now includes a "potato" setting which should work well on lower-end hardware.
+- **[Updated]** Crafting Tweaks.
+- **[Updated]** Create Enchantment Industry.
+- **[Updated]** Curios API.
+- **[Updated]** MmmMmmMmmMmm.
+- **[Updated]** Moonlight Lib
+- **[Updated]** playerAnimator.
+- **[Updated]** ShetiPhianCore.
+- **[Updated]** Supplementaries. This should fix an issue with configs not being properly saved.
+- **[Updated]** Visual Workbench.
+- **[Updated]** Waystones.
+- **[Updated]** YUNG's Better Nether Fortresses.
+- **[Updated]** The server guidebook to add miscellanious keybinds.
+
+### Known issues:
+- Entering the mods/config menus can cause the game to stop rendering entities on the client. To fix, quit to desktop and re-open.
+- While on a server, JER only displays vanilla mob and dungeon drops.
+- Text in guidebooks may be illegible at certain resolutions. Resizing the UI scale within a patchouli book can fix text rendering.
+- Lanterns in a hip slot will render in first person view several chunks ahead of the player with certain shaders while that curio slot's display is toggled on.
+
 ## RELEASE v1.3.0
 This minor update adds a handful of bugfixes.
 
