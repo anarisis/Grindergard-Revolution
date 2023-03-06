@@ -11,8 +11,8 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
-## RELEASE v1.5.0
-This minor update contains critical fixes for server functionality. The next update will be focused on improving the multiplayer and co-op experience.
+## RELEASE v1.5.0a
+This hotfix resolves a crash on startup.
 
 ### Changes (2023-03-06, 1678130520 Unix Time):
 - **[Fixed]** Supplementaries crashes the game due to malformed config.
