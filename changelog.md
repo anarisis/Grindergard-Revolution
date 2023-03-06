@@ -14,6 +14,12 @@ Major and Minor updates and Patches are all declared with ascending whole number
 ## RELEASE v1.5.0
 This minor update contains critical fixes for server functionality. The next update will be focused on improving the multiplayer and co-op experience.
 
+### Changes (2023-03-06, 1678130520 Unix Time):
+- **[Fixed]** Supplementaries crashes the game due to malformed config.
+
+## RELEASE v1.5.0
+This minor update contains critical fixes for server functionality. The next update will be focused on improving the multiplayer and co-op experience.
+
 ### Changes (2023-03-06, 1678087380 Unix Time):
 - **[Added]** Executioner loot.
 - **[Added]** Vindicator loot.
