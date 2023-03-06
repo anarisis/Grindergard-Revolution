@@ -11,6 +11,32 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
+## RELEASE v1.5.0
+This minor update contains critical fixes for server functionality. The next update will be focused on improving the multiplayer and co-op experience.
+
+### Changes (2023-03-06, 1678087380 Unix Time):
+- **[Added]** Executioner loot.
+- **[Added]** Vindicator loot.
+<br></br>
+- **[Changed]** JourneyMap default configs. Maps should now display players and mobs as icons instead of arrows.
+<br></br>
+- **[Fixed]** Not receiving pickup notifications when items go into a backpack.
+- **[Fixed]** Players able to consume double the intended maximum of heart containers.
+- **[Fixed]** Raids not giving stamina vessels upon completion. Participating in a successful raid should now appropriately award the player.
+<br></br>
+- **[Updated]** The Bumblezone
+- **[Updated]** Canary
+- **[Updated]** Collective
+- **[Updated]** Dot Coin Mod. This should hopefully resolve wallets resetting randomly.
+- **[Updated]** YUNG's API
+- **[Updated]** YUNG's Better Desert Temples
+
+### Known issues:
+- Entering the mods/config menus can cause the game to stop rendering entities on the client. To fix, quit to desktop and re-open.
+- While on a server, JER only displays vanilla mob and dungeon drops.
+- Text in guidebooks may be illegible at certain resolutions. Resizing the UI scale within a patchouli book can fix text rendering.
+- Lanterns in a hip slot will render in first person view several chunks ahead of the player with certain shaders while that curio slot's display is toggled on.
+
 ## RELEASE v1.4.0
 This minor update fixes a few bugs and adds compatibility and missing server functionality.
 
