@@ -11,6 +11,12 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
+## RELEASE v1.5.0b
+This hotfix re-enables Create's "ponder" feature. To do this, Canary has been temporarily disabled due to a conflict. This will result in a reduction in performance, and it's recommended you leave Canary enabled on servers as the ponder crash is client-side exclusive.
+
+### Changes (2023-03-07, 1678236000 Unix Time):
+- **[Fixed]** Using Create's "ponder" feature crashes the client.
+
 ## RELEASE v1.5.0a
 This hotfix resolves a crash on startup.
 
