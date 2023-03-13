@@ -11,7 +11,7 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
-## RELEASE v1.6.0: Enchanting update
+## RELEASE v1.6.0: Enchanting Update
 This minor update overhauls the damage and enchantments system for better late-game balance. Items can now only have a maximum of three enchantments (not including Mending, Unbreaking, Efficiency, and Stepping). Enchanting gems cannot be used on diamond, netherite, advanced netherite, or ignitium items, but they can be applied beyond the enchanting cap. 30+ new enchantments have been added to encourage more diverse item builds. Notably, the Stepping enchant allows players to walk up one-block ledges similar to horse movement, the Spartan Weapon enchant provides bonus magic damage while wielding a shield, and the Focused Impact enchantment increases the damage of slow weapons.
 
 The multiplayer update is currently delayed pending critical updates from mod developers but is still planned as the next update.
