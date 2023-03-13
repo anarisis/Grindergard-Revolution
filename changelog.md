@@ -11,6 +11,36 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
+## RELEASE v1.6.0: Enchanting update
+This minor update overhauls the damage and enchantments system for better late-game balance. Items can now only have a maximum of three enchantments (not including Mending, Unbreaking, Efficiency, and Stepping). Enchanting gems cannot be used on diamond, netherite, advanced netherite, or ignitium items, but they can be applied beyond the enchanting cap. 30+ new enchantments have been added to encourage more diverse item builds. Notably, the Stepping enchant allows players to walk up one-block ledges similar to horse movement, the Spartan Weapon enchant provides bonus magic damage while wielding a shield, and the Focused Impact enchantment increases the damage of slow weapons.
+
+The multiplayer update is currently delayed pending critical updates from mod developers but is still planned as the next update.
+
+### Changes (2023-03-13, 1678696080 Unix Time):
+- **[Added]** Altered Damage. This balances PVP damage and provides opportunities for more damage tuning later on.
+- **[Added]** Armor & Damage Scaling. This rebalances the armor system to make early game armors more useful and temper the strength of modded armors.
+- **[Added]** Connectivity. This smooths out poor internet issues for online play.
+- **[Added]** Step. Adds the Stepping enchant.
+- **[Added]** Unique Enchantments and Unique Enchantments Base. Adds numerous enchantments for armors, tools, and weapons and restricts enchanting to promote diverse build choices.
+<br></br>
+- **[Changed]** Vein Mining enchant to be compatible with Silk Touch.
+<br></br>
+- **[Updated]** Better Combat.
+- **[Updated]** Blueprint.
+- **[Updated]** Combat Roll.
+- **[Updated]** Easy Anvils.
+- **[Updated]** Jade.
+- **[Updated]** Paragliders.
+- **[Updated]** Vein Mining.
+- **[Updated]** YUNG's Better Nether Fortresses.
+
+### Known issues:
+- Entering the mods/config menus can cause the game to stop rendering entities on the client. To fix, quit to desktop and re-open.
+- While on a server, JER only displays vanilla mob and dungeon drops.
+- Text in guidebooks may be illegible at certain resolutions. Resizing the UI scale within a patchouli book can fix text rendering.
+- Lanterns in a hip slot will render in first person view several chunks ahead of the player with certain shaders while that curio slot's display is toggled on.
+- Items sent to mailboxes made of modded wood types can only be retrieved by breaking the receiving mailbox.
+
 ## RELEASE v1.5.0b
 This hotfix re-enables Create's "ponder" feature. To do this, Canary has been temporarily disabled due to a conflict. This will result in a reduction in performance, and it's recommended you leave Canary enabled on servers as the ponder crash is client-side exclusive.
 
