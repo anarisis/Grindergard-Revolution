@@ -11,6 +11,88 @@ Major and Minor updates and Patches are all declared with ascending whole number
 | Incremented in whole numbers | ✓     | ✓     | ✓     | x |
 | Incremented with letters       | x     | x     | x     | ✓
 
+## RELEASE v1.7.0: Multiplayer Update
+This minor update completes the overhaul of the damage system started in 1.6.0. All armor sets provide more damage reduction out the gate, while the Protection and Sharpness enchants have been removed (with minor exceptions). This makes the effect of defensive stats more predictable, and the removal of "must-have" enchantments removes a barrier to both accessing high-end gear and exploring varied equipment builds. This update also improves upon the multiplayer experience in several ways. Cooperative exploration and dungeoneering is improved via the addition of the /friend command, which allows players to designate other players that will be immune to their damage, and by making all naturally-generated chests with loot contain separate and individualized loot for each player. Additionally, players can now directly trade with each other by right clicking each other with an empty hand!
+
+One of the updated mods has received a complete rewrite. Be sure to back up your worlds before updating just in case.
+
+### Changes (2023-03-28, 1680056400 Unix Time):
+- **[Added]** AttributeFix.
+- **[Added]** Better Spawner Control. Any spawner can now be deactivated by placing 5 torches on it.
+- **[Added]** Better Statistics Screen.
+- **[Added]** Create Compats.
+- **[Added]** DontHitYourFriend. This mod will be replaced by another with more functionality later, and is only applicable to online play.
+- **[Added]** Eclectic Trove resource pack.
+- **[Added]** Harder Natural Healing. Passive healing from food is now less effective in combat. Crafting an ender flask for healing potions is highly recommended.
+- **[Added]** [SBM] Jukebox. Jukeboxes can now be fed music discs, and hoppers can't remove them until the disc stops playing.
+- **[Added]** Legendary Tooltips. Tooltips are now styled in accordance with the given item, and include a 3D preview of the item.
+- **[Added]** Loot Integrations.
+- **[Added]** Lootr. Naturally generated chests now have unique loot for each player that opens them.
+- **[Added]** NetherPortalFix.
+- **[Added]** Player Trade. Players can now open a trading interface with each other by right-clicking with an empty hand.
+- **[Added]** Prism.
+- **[Added]** Roleplay Armor. Like Weaver's Cosmetics, these are uncraftable and hidden from JEI. Server admins are encouraged to use them as rewards.
+- **[Added]** ServerConfig Updater.
+- **[Added]** Supplementaries Squared.
+<br></br>
+- **[Changed]** Armor mitigation. Wearing any armor now reduces incoming damage by at least 20% and each point of armor further reduces damage by 2.2%. Armor Toughness further reduces damage based on the percentage of HP you're losing, providing more protection against possible one-shot hits.
+- **[Changed]** the order of items in JEI to organize them more logically.
+<br></br>
+- **[Fixed]** Bulbis Stem unobtainable. Bulbis wood can be crafted into stems with a stonecutter or Create saw.
+- **[Fixed]** Sneaking while both a keyboard and controller are plugged in causes the player to move even more slowly. This was an issue with Controllable.
+- **[Fixed]** Fresh installations crashing on startup caused by JourneyMap Integration looking for a default config.
+- **[Fixed]** Using a waystone while an animal is on a lead doesn't bring them with you. This was a bug with Waystones.
+<br></br>
+- **[Removed]** Protection and Sharpness enchantments. Naga Leggings and Mining Master weapons retain their natural enchantments.
+<br></br>
+- **[Updated]** Balm.
+- **[Updated]** Better Compatibility Checker.
+- **[Updated]** Blueprint.
+- **[Updated]** Bookshelf.
+- **[Updated]** The Bumblezone.
+- **[Updated]** Comforts.
+- **[Updated]** Configured.
+- **[Updated]** Controllable.
+- **[Updated]** CraftTweaker.
+- **[Updated]** Create: Extended Cogwheels. The mod has been completely rewritten, so make sure to backup your worlds.
+- **[Updated]** Curious Lanterns.
+- **[Updated]** DefaultSettings.
+- **[Updated]** FancyMenu.
+- **[Updated]** FTB Backups 2.
+- **[Updated]** Handcrafted. Adds recipes for dying individual cushions and sheets. Also allows Create's cutting system to produce boards.
+- **[Updated]** JCPlugin.
+- **[Updated]** JourneyMap Integration.
+- **[Updated]** JourneyMap.
+- **[Updated]** Just Enough Items.
+- **[Updated]** Just Enough Professions.
+- **[Updated]** Just Enough Resources.
+- **[Updated]** Kotlin for Forge.
+- **[Updated]** L_Ender's Cataclysm. All bosses have received a rebalance, and custom boss bars have been added.
+- **[Updated]** LibX.
+- **[Updated]** Macaw's Doors.
+- **[Updated]** Moonlight.
+- **[Updated]** Placebo.
+- **[Updated]** Quark.
+- **[Updated]** Savage & Ravage.
+- **[Updated]** Shield Expansion.
+- **[Updated]** Simple Discord RPC.
+- **[Updated]** Spark.
+- **[Updated]** Starter Kit.
+- **[Updated]** Structory.
+- **[Updated]** Stylish Effects.
+- **[Updated]** Supplementaries.
+- **[Updated]** Visual Workbench.
+- **[Updated]** Waystones.
+- **[Updated]** Yung's API.
+
+### Known issues:
+- Entering the mods/config menus can cause the game to stop rendering entities on the client. To fix, quit to desktop and re-open.
+- While on a server, JER only displays vanilla mob and dungeon drops.
+- Text in guidebooks may be illegible at certain resolutions. Resizing the UI scale within a patchouli book can fix text rendering.
+- Lanterns in a hip slot will render in first person view several chunks ahead of the player with certain shaders while that curio slot's display is toggled on.
+- Items sent to mailboxes made of modded wood types can only be retrieved by breaking the receiving mailbox.
+- A handful of music discs will not lock out a hopper for their full duration, or alternately will not unlock a pulling hopper.
+
 ## RELEASE v1.6.0: Enchanting Update
 This minor update overhauls the damage and enchantments system for better late-game balance. Items can now only have a maximum of three enchantments (not including Mending, Unbreaking, Efficiency, and Stepping). Enchanting gems cannot be used on diamond, netherite, advanced netherite, or ignitium items, but they can be applied beyond the enchanting cap. 30+ new enchantments have been added to encourage more diverse item builds. Notably, the Stepping enchant allows players to walk up one-block ledges similar to horse movement, the Spartan Weapon enchant provides bonus magic damage while wielding a shield, and the Focused Impact enchantment increases the damage of slow weapons.
 
